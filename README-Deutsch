@@ -1,0 +1,50 @@
+# Analyse: Gelegenheitsfahrer gegen Jahresmitglieder für Cyclistic
+
+## Executive Summary:
+Ich habe 12 Monate Cyclistic Daten aus 2024 mit SQL in ein Master Dataset zusammengeführt. Nach dem Cleaning und der Analyse in SQL habe ich die Ergebnisse nach Excel exportiert und als CSV für Tableau Public vorbereitet.  Anschließend habe ich in Tableau und Excel Dashboards gebaut, um wichtige Trends und Insights sichtbar zu machen.  
+Basierend darauf habe ich eine Präsentation und einen finalen Report erstellt mit konkreten Empfehlungen wie:  
+1. Wochenend- und Touristen-orientierte Mitgliedsangebote für Gelegenheitsfahrer
+2. Kooperationen mit lokalen Attraktionen in Hotspot Zonen (Rabatte für Mitglieder)
+3. App Nachriichten und E-Mail Kampagnen, um häufige Gelegenheitsfahrer zu Jahresmitglieder zu konvertieren
+
+### Aufgabe:
+Der Marketing Director ist überzeugt, dass das Wachstum von Jahresmitglieder entscheidend für die Zukunft von Cyclistic ist.  
+Unser Ziel ist es, mehr Mitgliedschaften zu verkaufen, indem wir Gelegenheitsfahrer in Jahresmitglieder konvertieren.
+
+![Casual vs Annual Riders Chart](images/Casuals-vs-Annuals-Share-of-Rides.png)
+
+### Methodologie:
+1. 12 Monate Cyclistic Daten (2024) mit SQL in ein Master-Dataset kombiniert  
+2. Daten in SQL bereinigt und transformiert (Konsistenz über alle Monate sichergestellt)
+3. Fahrer-Verhalten analysiert und Dashboards in Tableau & Excel erstellt
+4. Präsentation mit klaren Insights und konkreten Conversion Strategien gebaut
+
+### Fähigkeiten:
+  SQL: Daten-Transformation, JOINS, Aggregationen
+  Excel: Pivot Tabelle, Visualisierungen, Trendanalyse
+  Tableau: Dashboard-Design & Data Visualization
+  Presentation: Klare, verständliche Story mit Fokus auf Business Impact 
+
+### Ergebnisse und Geschäftsempfehlung:
+Das Erstellen eines Dashboards zur Analyse des Cyclistic-Fahrverhaltens hat klare Unterschiede zwischen Gelegenheitsfahrer und Jahresmitglieder gezeigt. Gelegenheitsfahrer nutzen die Bikes meist am Wochenende, machen längere Fahrten und sind oft in touristischen Hotspots unterwegs, während Jahresmitglieder unter der Woche deutlich regelmäßiger fahren, hauptsächlich für den Arbeitsweg.
+
+![Tableau-Dashboard](images/Tableau-Dashboard-Cyclistic.png)
+
+Gelegenheitsfahrer machen etwa 36% aller Fahrten in 2024 aus.  
+Wenn wir ca. 11% davon zu Annual Members konvertieren, kommen wir auf ungefähr 25% Gelegenheitsfahrer vs. 75% Jahresmitglieder, was unser Ziel für mehr planbare Einnahmen unterstützt.
+
+Um dieses Ziel zu erreichen, empfehle ich mehrere strategische Maßnahmen:  
+1. Wochenend- & Touristenmitgliedsangebote einführen
+2. Partnerschaften mit Attraktionen in stark genutzten Zonen
+3. App-Benachrichtigungen & E-Mail-Kampagnen für aktive Gelegenheitsfahrer
+4. Marketing pushen in spitze Monaten (April–August) und am Wochenende
+5. Fokus auf Stationen mit vielen Gelegenheitsfahrer oder gemischter Nutzung
+
+Ich bin überzeugt, dass diese Maßnahmen helfen, mehr Jahresmitglieder zu gewinnen und gleichzeitig stabilere, planbare Umsätze zu generieren.
+
+### Nächste Schritte:
+
+1. Mehr Fahrerdaten sammeln
+2. A/B-Testing für Marketing Kampagnen durchführen
+3. Saisonale und Wettereinflüsse analysieren
+4. Live Dashboard für kontinuierliches Tracking bauen
