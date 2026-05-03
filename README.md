@@ -20,18 +20,19 @@ Unser Ziel ist es, mehr Mitgliedschaften zu verkaufen, indem wir Gelegenheitsfah
 4. Präsentation mit klaren Insights und konkreten Conversion Strategien gebaut
 
 ### Fähigkeiten:
-  SQL: Daten-Transformation, JOINS, Aggregationen
-  Excel: Pivot Tabelle, Visualisierungen, Trendanalyse
-  Tableau: Dashboard-Design & Data Visualization
-  Presentation: Klare, verständliche Story mit Fokus auf Business Impact 
+  SQL: Daten-Transformation, JOINS, Aggregationen  
+  Excel: Pivot Tabelle, Visualisierungen, Trendanalyse  
+  Tableau: Dashboard-Design & Data Visualization  
+  Presentation: Klare, verständliche Story mit Fokus auf Business Impact   
 
 ### Ergebnisse und Geschäftsempfehlung:
-Das Erstellen eines Dashboards zur Analyse des Cyclistic-Fahrverhaltens hat klare Unterschiede zwischen Gelegenheitsfahrer und Jahresmitglieder gezeigt. Gelegenheitsfahrer nutzen die Bikes meist am Wochenende, machen längere Fahrten und sind oft in touristischen Hotspots unterwegs, während Jahresmitglieder unter der Woche deutlich regelmäßiger fahren, hauptsächlich für den Arbeitsweg.
+Das Erstellen eines Dashboards zur Analyse des Cyclistic-Fahrverhaltens hat klare Unterschiede zwischen Gelegenheitsfahrer und Jahresmitglieder gezeigt.  
+Gelegenheitsfahrer nutzen die Bikes meist am Wochenende, machen längere Fahrten und sind oft in touristischen Hotspots unterwegs, während Jahresmitglieder unter der Woche deutlich regelmäßiger fahren, hauptsächlich für den Arbeitsweg.  
 
 ![Tableau-Dashboard](images/Tableau-Dashboard-Cyclistic.png)
 
 Gelegenheitsfahrer machen etwa 36% aller Fahrten in 2024 aus.  
-Wenn wir ca. 11% davon zu Annual Members konvertieren, kommen wir auf ungefähr 25% Gelegenheitsfahrer vs. 75% Jahresmitglieder, was unser Ziel für mehr planbare Einnahmen unterstützt.
+Wenn wir ca. 11% davon zu Annual Members konvertieren, kommen wir auf ungefähr 25% Gelegenheitsfahrer vs. 75% Jahresmitglieder, was unser Ziel für mehr planbare Einnahmen unterstützt.  
 
 Um dieses Ziel zu erreichen, empfehle ich mehrere strategische Maßnahmen:  
 1. Wochenend- & Touristenmitgliedsangebote einführen
