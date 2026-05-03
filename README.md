@@ -1,48 +1,50 @@
-# Casual Riders vs. Annual Members Analysis for Cyclistic
+# Analyse: Gelegenheitsfahrer gegen Jahresmitglieder für Cyclistic
 
 ## Executive Summary:
-I used SQL to combine 12 months of Cyclistic data from 2024 into a single master dataset. After cleaning and analyzing the data in SQL, I exported the results to Excel and converted them into a CSV file compatible with Tableau Public. I then created data visualizations in both Tableau and Excel to explore key trends and insights. Based on the analysis, I prepared a presentation and final report recommending strategies such as:
-1. Weekend and tourist-focused membership offers for casual riders
-2. Partnering with local attractions in hot-spot areas to offer discounts to members
-3. Using app notifications and email campaigns to encourage frequent casual riders to convert to annual members
+Ich habe 12 Monate Cyclistic Daten aus 2024 mit SQL in ein Master Dataset zusammengeführt. Nach dem Cleaning und der Analyse in SQL habe ich die Ergebnisse nach Excel exportiert und als CSV für Tableau Public vorbereitet.  Anschließend habe ich in Tableau und Excel Dashboards gebaut, um wichtige Trends und Insights sichtbar zu machen.  
+Basierend darauf habe ich eine Präsentation und einen finalen Report erstellt mit konkreten Empfehlungen wie:  
+1. Wochenend- und Touristenorientierte Mitgliedsangebote für Gelegenheitsfahrer
+2. Kooperationen mit lokalen Attraktionen in Hotspot Zonen (Rabatte für Mitglieder)
+3. App Nachriichten und E-Mail Kampagnen, um häufige Gelegenheitsfahrer zu Jahresmitglieder zu konvertieren
 
-### Business Task:
-The marketing director believes that expanding the base of annual members is essential for Cyclistic's future growth.
-Our goal is to **increase membership sales** by converting casual riders into annual members.
+### Aufgabe:
+Der Marketing Director ist überzeugt, dass das Wachstum von Jahresmitglieder entscheidend für die Zukunft von Cyclistic ist.  
+Unser Ziel ist es, mehr Mitgliedschaften zu verkaufen, indem wir Gelegenheitsfahrer in Jahresmitglieder konvertieren.
 
 ![Casual vs Annual Riders Chart](images/Casuals-vs-Annuals-Share-of-Rides.png)
 
-### Methodology:
-1. Combined 12 months of Cyclistic 2024 trip data into a single master dataset using SQL
-2. Cleaned and transformed the data in SQL to ensure consistency across all months
-3. Analyzed rider trends in SQL and built Tableau and Excel dashboards to compare casual and annual members
-4. Created a presentation summarizing key insights and recommendations to convert casual riders into members
+### Methodologie:
+1. 12 Monate Cyclistic Daten (2024) mit SQL in ein Master-Dataset kombiniert  
+2. Daten in SQL bereinigt und transformiert (Konsistenz über alle Monate sichergestellt)
+3. Fahrer-Verhalten analysiert und Dashboards in Tableau & Excel erstellt
+4. Präsentation mit klaren Insights und konkreten Conversion Strategien gebaut
 
-### Skills:
-  SQL: Case, joins, and aggregate functions  
-  Excel: Pivot tables, visualizations, and trend analysis  
-  Tableau: Dashboard creation and data visualizations  
-  Presentation: Designing easy-to-understand presentations that highlight key insights  
+### Fähigkeiten:
+  SQL: Daten-Transformation, JOINS, Aggregationen
+  Excel: Pivot Tabelle, Visualisierungen, Trendanalyse
+  Tableau: Dashboard-Design & Data Visualization
+  Presentation: Klare, verständliche Story mit Fokus auf Business Impact 
 
-### Results & Business Recommendation:
-Creating a dashboard to analyze Cyclistic rider behavior revealed clear differences between casual riders and annual members. Casual riders typically use Cyclistic bikes on weekends, take longer rides, and frequent popular tourist areas, while annual members ride more consistently throughout the week, primarily for commuting purposes.
+### Ergebnisse und Geschäftsempfehlung:
+Das Erstellen eines Dashboards zur Analyse des Cyclistic-Fahrverhaltens hat klare Unterschiede zwischen Gelegenheitsfahrer und Jahresmitglieder gezeigt. Gelegenheitsfahrer nutzen die Bikes meist am Wochenende, machen längere Fahrten und sind oft in touristischen Hotspots unterwegs, während Jahresmitglieder unter der Woche deutlich regelmäßiger fahren, hauptsächlich für den Arbeitsweg.
 
 ![Tableau-Dashboard](images/Tableau-Dashboard-Cyclistic.png)
 
-Since casual riders accounted for **36%** of all rides in 2024, converting additional 11% would shift the overall balance to approximately 25% casual and 75% member rides, supporting our goal of increasing membership-based revenue.
+Gelegenheitsfahrer machen etwa 36% aller Fahrten in 2024 aus.  
+Wenn wir ca. 11% davon zu Annual Members konvertieren, kommen wir auf ungefähr 25% Gelegenheitsfahrer vs. 75% Jahresmitglieder, was unser Ziel für mehr planbare Einnahmen unterstützt.
 
-To achieve this target, I recommend several strategic actions:
-1. Introduce weekend and tourist-focused membership offers
-2. Partner with local attractions in hot-spot areas to provide exclusive discounts for members
-3. Use app notifications and targeted email campaigns to nudge frequent casual riders
-4. Intensify marketing campaigns during peak riding months (April–August) and on weekends
-5. Focus marketing efforts on stations popular with casual riders and those showing a balanced mix of casual and member users
+Um dieses Ziel zu erreichen, empfehle ich mehrere strategische Maßnahmen:  
+1. Wochenend- & Touristenmitgliedsangebote einführen
+2. Partnerschaften mit Attraktionen in stark genutzten Zonen
+3. App-Benachrichtigungen & E-Mail-Kampagnen für aktive Gelegenheitsfahrer
+4. Marketing pushen in spitze Monaten (April–August) und am Wochenende
+5. Fokus auf Stationen mit vielen Gelegenheitsfahrer oder gemischter Nutzung
 
-I believe these recommendations could increase annual memberships and generate more predictable long-term revenue for Cyclistic.
+Ich bin überzeugt, dass diese Maßnahmen helfen, mehr Jahresmitglieder zu gewinnen und gleichzeitig stabilere, planbare Umsätze zu generieren.
 
-### Next Steps:
+### Nächste Schritte:
 
-1. Collect additional user data
-2. Conduct A/B Testing for marketing campaigns
-3. Analyze seasonal and weather impacts
-4. Build live dashboard for ongoing tracking
+1. Mehr Fahrerdaten sammeln
+2. A/B-Testing für Marketing Kampagnen durchführen
+3. Saisonale und Wettereinflüsse analysieren
+4. Live Dashboard für kontinuierliches Tracking bauen
